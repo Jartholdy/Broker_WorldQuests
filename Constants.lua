@@ -39,6 +39,7 @@ CONSTANTS.WORLD_QUEST_TYPES = {
 	RAID = 8,
 }
 
+-- The name here should match the currency name in game (verified via Wowhead).  Some currencies are singular, some are plural.
 CONSTANTS.REWARD_TYPES = {
 	IRRELEVANT = -1,
 	ARTIFACTPOWER = 0,
@@ -50,15 +51,22 @@ CONSTANTS.REWARD_TYPES = {
 	HONOR = 6, 
 	NETHERSHARD = 7, 
 	ARGUNITE = 8, 
-	WAKENING_ESSENCES = 9,
+	WAKENING_ESSENCE = 9,
 	WAR_RESOURCES = 10,
 	MARK_OF_HONOR = 11,
-	SERVICE_MEDALS = 12,
+	SERVICE_MEDAL = 12,
 	PRISMATIC_MANAPEARL = 13,
 	SOULBIND_CONDUIT = 14,
 	ANIMA_CONTAINER = 15,
 	GRATEFUL_OFFERING = 15,
 	CYPHERS_OF_THE_FIRST_ONES = 16,
+	BLOODY_TOKENS = 17,
+	DRAGON_ISLES_SUPPLIES = 18,
+	ELEMENTAL_OVERFLOW = 19,
+	FLIGHTSTONES = 20,
+	LOAMM_NIFFEN = 21,
+	POLISHED_PET_CHARM = 22,
+	BATTLE_PET_BANDAGE = 23,
 }
 
 CONSTANTS.QUEST_TYPES = {
@@ -96,7 +104,6 @@ CONSTANTS.WORLD_QUEST_ICONS_BY_TAG_ID = {
 	[260] = isHorde and "worldquest-icon-horde" or "worldquest-icon-alliance",
 }
 
-
 CONSTANTS.CURRENCIES_AFFECTED_BY_WARMODE = {
 	[1226] = true, -- nethershard
 	[1508] = true, -- argunite
@@ -104,14 +111,15 @@ CONSTANTS.CURRENCIES_AFFECTED_BY_WARMODE = {
 	[1342] = true, -- legionfall supplies
 	[1220] = true, -- order hall (legion)
 	[1560] = true, -- war resources (bfa)
-	[1553] = true, -- azerite
+	[1553] = true, -- azerite (bfa)
+	[2123] = true, -- Bloody Tokens (dragonflight)
 }
 
 CONSTANTS.DRAGONFLIGHT_REPUTATION_CURRENCY_IDS = {
-	[2003] = true, -- Dragon Isles Supplies
 	[2108] = true, -- Maruuk Centaur
 	[2109] = true, -- Iskaara Tuskarr
 	[2031] = true, -- Dragonscale Expedition
+	[2106] = true, -- Valdrakken Accord
 }
 
 CONSTANTS.SHADOWLANDS_REPUTATION_CURRENCY_IDS = {
@@ -129,16 +137,17 @@ CONSTANTS.SHADOWLANDS_REPUTATION_CURRENCY_IDS = {
 }
 
 CONSTANTS.BFA_REPUTATION_CURRENCY_IDS = {
-	[1579] = true, -- both
-	[1598] = true,
-	[1600] = true, -- alliance
-	[1595] = true,
-	[1597] = true,
-	[1596] = true,
-	[1599] = true, -- horde
-	[1593] = true,
-	[1594] = true,
-	[1592] = true,
+	[1579] = true, -- Champions of Azeroth
+	[1598] = true, -- Tortollan Seekers
+	[1600] = true, -- Honorbound
+	[1595] = true, -- Talanji's Expedition
+	[1597] = true, -- Zandalari Empire
+	[1596] = true, -- Voldunai
+	[1599] = true, -- 7th Legion
+	[1593] = true, -- Proudmoore Admiralty
+	[1594] = true, -- Storm's Wake
+	[1592] = true, -- Order of Embers
+	[1742] = true, -- Rustbolt Resistance
 }
 
 CONSTANTS.FAMILY_FAMILIAR_QUEST_IDS = { -- WQ pet battle achievement
