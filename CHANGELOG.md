@@ -1,4 +1,9 @@
+### 10.1.0.0
+
+* Dragonflight 10.1 zones added
+ 
 ### 10.0.2.1
+
 * Updates for Shadowlands compatibility
 * Initial Updates for Dragonflight compatibility
 
