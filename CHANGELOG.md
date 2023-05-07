@@ -1,6 +1,6 @@
 ### 10.1.0.0
 
-* Dragonflight 10.1 zones added
+* Dragonflight 10.1 zones and currency added
  
 ### 10.0.2.1
 
