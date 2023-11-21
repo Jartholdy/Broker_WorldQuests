@@ -1,4 +1,4 @@
-## Interface: 101000
+## Interface: 102000
 ## Author: myno (original author; up through 8.x), Amadeus (maintainer: 9.x and 10.x), Jonner (hotfix)
 ## Title: Broker_WorldQuests
 ## Version: 10.1.0.0
