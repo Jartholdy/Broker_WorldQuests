@@ -1966,8 +1966,8 @@ function BWQ:UpdateBlock()
 		if C("brokerShowWhelplingsDreamingCrest") 	and BWQ.totalWhelplingsDreamingCrest > 0	then brokerString = string.format("%s|TInterface\\Icons\\Inv_10_gearupgrade_whelplingsdreamingcrest:16:16|t %d  ", brokerString, BWQ.totalWhelplingsDreamingCrest) end
 		if C("brokerShowDrakesDreamingCrest") 	    and BWQ.totalDrakesDreamingCrest > 0		then brokerString = string.format("%s|TInterface\\Icons\\Inv_10_gearupgrade_drakesdreamingcrest:16:16|t %d  ", brokerString, BWQ.totalDrakesDreamingCrest) end
 		if C("brokerShowWyrmsDreamingCrest") 	    and BWQ.totalWyrmsDreamingCrest > 0		    then brokerString = string.format("%s|TInterface\\Icons\\Inv_10_gearupgrade_wyrmsdreamingcrest:16:16|t %d  ", brokerString, BWQ.totalWyrmsDreamingCrest) end
-		if C("brokerShowFlightstones") 	        	and BWQ.totalAspectsDreamingCrest > 0		then brokerString = string.format("%s|TInterface\\Icons\\Inv_10_gearupgrade_aspectsdreamingcrest:16:16|t %d  ", brokerString, BWQ.totalAspectsDreamingCrest) end
-		if C("brokerShowAspectsDreamingCrest")    	and BWQ.totalPolishedPetCharms > 0  		then brokerString = string.format("%s|TInterface\\Icons\\inv_currency_petbattle:16:16|t %d  ", brokerString, BWQ.totalPolishedPetCharms) end
+		if C("brokerShowAspectsDreamingCrest") 	    and BWQ.totalAspectsDreamingCrest > 0		then brokerString = string.format("%s|TInterface\\Icons\\Inv_10_gearupgrade_aspectsdreamingcrest:16:16|t %d  ", brokerString, BWQ.totalAspectsDreamingCrest) end
+		if C("brokerShowPolishedPetCharm")    	 	and BWQ.totalPolishedPetCharms > 0  		then brokerString = string.format("%s|TInterface\\Icons\\inv_currency_petbattle:16:16|t %d  ", brokerString, BWQ.totalPolishedPetCharms) end
 
 		if brokerString and brokerString ~= "" then
 			BWQ.WorldQuestsBroker.text = brokerString
